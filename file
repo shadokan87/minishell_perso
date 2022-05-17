@@ -1,0 +1,13 @@
+exec
+file
+gc
+libft
+list
+main.c
+main.o
+Makefile
+minishell
+minishell.h
+pipe
+string
+tags

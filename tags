@@ -1,0 +1,281 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AND	minishell.h	/^	AND,$/;"	e	enum:__token__
+AR	exec/Makefile	/^AR = ar rc$/;"	m
+AR	libft/Makefile	/^AR			= ar rc$/;"	m
+AR	pipe/Makefile	/^AR = ar rc$/;"	m
+ARG	minishell.h	/^	ARG,$/;"	e	enum:__token__
+BONUS_NAMES	libft/Makefile	/^BONUS_NAMES	=	 lstnew.c lstadd_front.c lstsize.c lstlast.c lstadd_back.c \\$/;"	m
+BONUS_OBJS	libft/Makefile	/^BONUS_OBJS	= $(BONUS_SRCS:.c=.o)$/;"	m
+BONUS_SRCS	libft/Makefile	/^BONUS_SRCS	= $(addprefix $(MANDA_DIR)\/ft_, $(BONUS_NAMES))$/;"	m
+CC	Makefile	/^CC		=	clang$/;"	m
+CC	exec/Makefile	/^CC = clang$/;"	m
+CC	libft/Makefile	/^CC			= gcc$/;"	m
+CC	pipe/Makefile	/^CC = clang$/;"	m
+CFLAGS	Makefile	/^CFLAGS	=	-Wall -Wextra -Werror -g3 -fsanitize=address$/;"	m
+CFLAGS	exec/Makefile	/^CFLAGS = -Wall -Wextra -Werror$/;"	m
+CFLAGS	libft/Makefile	/^CFLAGS		= -Wall -Wextra -Werror$/;"	m
+C_BUILTIN	minishell.h	/^	C_BUILTIN,$/;"	e	enum:__token__
+C_ENV	minishell.h	/^	C_ENV,$/;"	e	enum:__token__
+D_L_REDIR	minishell.h	/^	D_L_REDIR,$/;"	e	enum:__token__
+D_QUOTE	minishell.h	/^	D_QUOTE,$/;"	e	enum:__token__
+D_R_REDIR	minishell.h	/^	D_R_REDIR,$/;"	e	enum:__token__
+ENV_SOLO	minishell.h	/^	ENV_SOLO,$/;"	e	enum:__token__
+ERROR_HEADER	minishell.h	/^#define ERROR_HEADER /;"	d
+EXECUTE_H	exec/execute.h	/^# define EXECUTE_H$/;"	d
+GC_H	gc/gc.h	/^# define GC_H$/;"	d
+HISTORY_PATH	minishell.h	/^#define HISTORY_PATH /;"	d
+INC_DIR	libft/Makefile	/^INC_DIR		= .$/;"	m
+LAST_CMD	minishell.h	/^	LAST_CMD,$/;"	e	enum:__token__
+LFLAGS	Makefile	/^LFLAGS	=	-I. -lncurses -lreadline -L \/usr\/local\/Cellar\/readline\/8.1\/lib -I \/usr\/local\/Cellar\/readline\/8.1\/include$/;"	m
+LIBFT_H	libft/libft.h	/^# define LIBFT_H$/;"	d
+L_REDIR	minishell.h	/^	L_REDIR,$/;"	e	enum:__token__
+MANDA_DIR	libft/Makefile	/^MANDA_DIR	= .$/;"	m
+MANDA_NAMES	exec/Makefile	/^MANDA_NAMES = 	..\/libft\/ft_split.c ..\/libft\/ft_strlen.c ..\/libft\/ft_strncmp.c\\$/;"	m
+MANDA_NAMES	libft/Makefile	/^MANDA_NAMES	=	atoi.c bzero.c calloc.c isalnum.c isalpha.c isascii.c \\$/;"	m
+MANDA_NAMES	pipe/Makefile	/^MANDA_NAMES = 	..\/libft\/ft_split.c ..\/libft\/ft_strlen.c ..\/libft\/ft_strncmp.c\\$/;"	m
+MANDA_OBJS	exec/Makefile	/^MANDA_OBJS =	 $(MANDA_NAMES:.c=.o)$/;"	m
+MANDA_OBJS	libft/Makefile	/^MANDA_OBJS	= $(MANDA_SRCS:.c=.o)$/;"	m
+MANDA_OBJS	pipe/Makefile	/^MANDA_OBJS =	 $(MANDA_NAMES:.c=.o)$/;"	m
+MANDA_SRCS	libft/Makefile	/^MANDA_SRCS	= $(addprefix $(MANDA_DIR)\/ft_, $(MANDA_NAMES))$/;"	m
+MINISHELL_H	minishell.h	/^#define MINISHELL_H$/;"	d
+NAME	Makefile	/^NAME	=	minishell$/;"	m
+NAME	exec/Makefile	/^NAME = exec$/;"	m
+NAME	exec/Makefile	/^NAME = pipex$/;"	m
+NAME	libft/Makefile	/^NAME		= libft.a$/;"	m
+NAME	pipe/Makefile	/^NAME = pipe$/;"	m
+OBJS	Makefile	/^OBJS	=	$(SRCS:.c=.o)$/;"	m
+OPTION	minishell.h	/^	OPTION,$/;"	e	enum:__token__
+OR	minishell.h	/^	OR,$/;"	e	enum:__token__
+PIPE	minishell.h	/^	PIPE,$/;"	e	enum:__token__
+PIPE_H	pipe/pipe.h	/^# define PIPE_H$/;"	d
+PROMPT_NAME	minishell.h	/^#define PROMPT_NAME /;"	d
+RL	exec/Makefile	/^RL = ranlib$/;"	m
+RL	libft/Makefile	/^RL			= ranlib$/;"	m
+RL	pipe/Makefile	/^RL = ranlib$/;"	m
+RM	Makefile	/^RM		=	rm -f$/;"	m
+RM	exec/Makefile	/^RM = rm -f$/;"	m
+RM	libft/Makefile	/^RM			= rm -f$/;"	m
+RM	pipe/Makefile	/^RM = rm -f$/;"	m
+R_REDIR	minishell.h	/^	R_REDIR,$/;"	e	enum:__token__
+SRCS	Makefile	/^SRCS	=	.\/main.c \\$/;"	m
+SYMBOLS	minishell.h	/^#define SYMBOLS /;"	d
+SYMBOLS_LOOKUP	minishell.h	/^#define SYMBOLS_LOOKUP /;"	d
+S_QUOTE	minishell.h	/^	S_QUOTE,$/;"	e	enum:__token__
+WILD_CARD	minishell.h	/^	WILD_CARD,$/;"	e	enum:__token__
+_END	minishell.h	/^	_END,$/;"	e	enum:__token__
+_START	minishell.h	/^	_START,$/;"	e	enum:__token__
+_STRING_H	string/string.h	/^# define _STRING_H$/;"	d
+_SYMBOL_END	minishell.h	/^	_SYMBOL_END,$/;"	e	enum:__token__
+_SYMBOL_START	minishell.h	/^	_SYMBOL_START,$/;"	e	enum:__token__
+_UNASSIGNED	minishell.h	/^	_UNASSIGNED,$/;"	e	enum:__token__
+__token__	minishell.h	/^	t_token				__token__;$/;"	m	struct:s_cut_cmd
+__token__	minishell.h	/^typedef enum __token__$/;"	g
+add	list/list.c	/^int	add(t_msh *msh, char *elem, t_token __token__)$/;"	f
+array	pipe/pipe.h	/^	t_mng	*array;$/;"	m	struct:s_pipe
+base	main.c	/^t_gc base;$/;"	v
+c_is_present	main.c	/^int		c_is_present(char *str, char c)$/;"	f
+case_delimitor	main.c	/^void	case_delimitor(t_msh *msh, char **s)$/;"	f
+case_quote	main.c	/^int		case_quote(t_msh* msh, int i, char **s)$/;"	f
+case_quote_append_to_list	main.c	/^void	case_quote_append_to_list(t_msh* msh, char *ret, char *s)$/;"	f
+case_quote_error	main.c	/^void	case_quote_error(t_msh *msh)$/;"	f
+check_linked_list_format	main.c	/^void	check_linked_list_format(t_msh* msh)$/;"	f
+check_set	string/ft_strtrim.c	/^int	check_set(char c, char const *set)$/;"	f
+child	pipe/pipe.h	/^	pid_t   child;$/;"	m	struct:s_pipe
+clear_cycle	main.c	/^void	clear_cycle(t_msh *msh)$/;"	f
+cmds	pipe/pipe.h	/^	char	**cmds;$/;"	m	struct:s_pipe
+collect	gc/garbage_co2.c	/^int	collect(int mode)$/;"	f
+command_not_found	main.c	/^int		command_not_found(char *str)$/;"	f
+content	libft/libft.h	/^	void			*content;$/;"	m	struct:s_list
+copy_cmd_shell	pipe/main.c	/^char	*copy_cmd_shell(int ac, char **av)$/;"	f
+count_num	libft/ft_itoa.c	/^unsigned int	count_num(int num)$/;"	f
+count_pipe	pipe/main.c	/^int	count_pipe(char *str)$/;"	f
+count_pipe	pipe/pipe.h	/^	int		count_pipe;$/;"	m	struct:s_pipe
+count_word	string/ft_split.c	/^int	count_word(char *str, char sep)$/;"	f
+create_lst	pipe/ft_init.c	/^t_pipe	*create_lst(int count_pipe, t_pipe *lst_pipex, t_mng *mng)$/;"	f
+cut_line	main.c	/^void	cut_line(t_msh *msh)$/;"	f
+determine_token	main.c	/^t_token	determine_token(char *str)$/;"	f
+determine_wildcard	main.c	/^t_token	determine_wildcard(char *str)$/;"	f
+drive_fd	pipe/manage_fd.c	/^void    drive_fd(int fd, char *file, int mode)$/;"	f
+dst	gc/gc.h	/^	int								dst;$/;"	m	struct:s_garbage_collector
+elem	minishell.h	/^	char				*elem;$/;"	m	struct:s_cut_cmd
+end_of_quote	main.c	/^int		end_of_quote(int i, int mark_double, int mark_single, char *s)$/;"	f
+env_head	minishell.h	/^	t_cut_cmd	*env_head;$/;"	m	struct:s_msh
+env_tail	minishell.h	/^	t_cut_cmd	*env_tail;$/;"	m	struct:s_msh
+env_to_split	main.c	/^char	**env_to_split(t_msh* msh)$/;"	f
+exec	pipe/exec_fd.c	/^void	exec(t_pipe *pipex, char **env)$/;"	f
+exec_cmds	pipe/exec_fd.c	/^void	exec_cmds(t_pipe *pipex, int ac, char **av, char **env)$/;"	f
+execute	main.c	/^int		execute()$/;"	f
+execute_fork_error	main.c	/^void	execute_fork_error()$/;"	f
+execute_one	main.c	/^int	execute_one(char **argv, int argc, char **envp)$/;"	f
+execution_error	minishell.h	/^	char	*execution_error;$/;"	m	struct:s_msh
+exit_code	minishell.h	/^	int		exit_code;$/;"	m	struct:s_msh
+fd_flag	minishell.h	/^	int					fd_flag;$/;"	m	struct:s_cut_cmd
+fill	list/list.c	/^t_cut_cmd	*fill(char *elem, t_token __token__)$/;"	f
+free_lst	pipe/free_lst.c	/^void	free_lst(t_pipe *head)$/;"	f
+free_mute	gc/garbage_co2.c	/^void	free_mute(void)$/;"	f
+free_mute_target	gc/garbage_co.c	/^int	free_mute_target(void *target)$/;"	f
+free_normal	gc/garbage_co2.c	/^void	free_normal(void)$/;"	f
+free_normal_target	gc/garbage_co.c	/^int	free_normal_target(void *target)$/;"	f
+ft_atoi	libft/ft_atoi.c	/^int	ft_atoi(const char *str)$/;"	f
+ft_bzero	libft/ft_bzero.c	/^void	ft_bzero(void *s, size_t n)$/;"	f
+ft_calloc	libft/ft_calloc.c	/^void	*ft_calloc( size_t count, size_t size)$/;"	f
+ft_calloc	string/ft_calloc.c	/^void	*ft_calloc(size_t count, size_t size)$/;"	f
+ft_get_env	main.c	/^char	*ft_get_env(t_cut_cmd *env)$/;"	f
+ft_isalnum	libft/ft_isalnum.c	/^int	ft_isalnum(int c)$/;"	f
+ft_isalpha	libft/ft_isalpha.c	/^int	ft_isalpha(int c)$/;"	f
+ft_isascii	libft/ft_isascii.c	/^int	ft_isascii(int c)$/;"	f
+ft_isdigit	libft/ft_isdigit.c	/^int	ft_isdigit(int c)$/;"	f
+ft_isprint	libft/ft_isprint.c	/^int	ft_isprint(int c)$/;"	f
+ft_itoa	libft/ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f
+ft_ls	main.c	/^t_cut_cmd	*ft_ls(char *path, char *options)$/;"	f
+ft_lstadd_back	libft/ft_lstadd_back.c	/^void	ft_lstadd_back(t_list **alst, t_list *new)$/;"	f
+ft_lstadd_front	libft/ft_lstadd_front.c	/^void	ft_lstadd_front(t_list **alst, t_list *new)$/;"	f
+ft_lstclear	libft/ft_lstclear.c	/^void	ft_lstclear(t_list **lst, void (*del)(void*))$/;"	f
+ft_lstdelone	libft/ft_lstdelone.c	/^void	ft_lstdelone(t_list *lst, void (*del)(void*))$/;"	f
+ft_lstiter	libft/ft_lstiter.c	/^void	ft_lstiter(t_list *lst, void (*f)(void *))$/;"	f
+ft_lstlast	libft/ft_lstlast.c	/^t_list	*ft_lstlast(t_list *lst)$/;"	f
+ft_lstmap	libft/ft_lstmap.c	/^t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))$/;"	f
+ft_lstnew	libft/ft_lstnew.c	/^t_list	*ft_lstnew(void *content)$/;"	f
+ft_lstsize	libft/ft_lstsize.c	/^int	ft_lstsize(t_list *lst)$/;"	f
+ft_memccpy	libft/ft_memccpy.c	/^void	*ft_memccpy(void *dest, const void *src, int c, size_t n)$/;"	f
+ft_memchr	libft/ft_memchr.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/;"	f
+ft_memcmp	libft/ft_memcmp.c	/^int	ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f
+ft_memcpy	libft/ft_memcpy.c	/^void	*ft_memcpy(void *dest, const void *src, size_t n)$/;"	f
+ft_memmove	libft/ft_memmove.c	/^void	*ft_memmove(void *str2, const void *str1, size_t n)$/;"	f
+ft_memset	libft/ft_memset.c	/^void	*ft_memset( void *pointer, int value, size_t count)$/;"	f
+ft_memset	string/ft_memset.c	/^void	*ft_memset(void *b, int c, size_t len)$/;"	f
+ft_putchar_fd	libft/ft_putchar_fd.c	/^void	ft_putchar_fd(char c, int fd)$/;"	f
+ft_putchar_str	string/ft_putchar_str.c	/^void	ft_putchar_str(char c, char **str)$/;"	f
+ft_putendl_fd	libft/ft_putendl_fd.c	/^void	ft_putendl_fd(char *s, int fd)$/;"	f
+ft_putnbr_fd	libft/ft_putnbr_fd.c	/^void	ft_putnbr_fd(int nb, int fd)$/;"	f
+ft_putstr_fd	libft/ft_putstr_fd.c	/^void	ft_putstr_fd(char *s, int fd)$/;"	f
+ft_putstr_fd	string/ft_putstr_fd.c	/^void	ft_putstr_fd(int fd, char *str)$/;"	f
+ft_readdir	main.c	/^int	ft_readdir(struct dirent **de, DIR *dr)$/;"	f
+ft_split	libft/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f
+ft_split	string/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f
+ft_strchr	libft/ft_strchr.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strcmp	exec/utils.c	/^int	ft_strcmp(char *s1, char *s2)$/;"	f
+ft_strcmp	pipe/utils.c	/^int	ft_strcmp(char *s1, char *s2)$/;"	f
+ft_strdup	libft/ft_strdup.c	/^char	*ft_strdup(const char *s)$/;"	f
+ft_strdup	string/ft_strdup.c	/^char*	ft_strdup(char *str)$/;"	f
+ft_strjoin	libft/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strjoin	string/ft_strjoin.c	/^char*	ft_strjoin(char *s1, char *s2)$/;"	f
+ft_strjoin_l	exec/utils.c	/^char	*ft_strjoin_l(char *path, char *cmd)$/;"	f
+ft_strjoin_l	pipe/utils.c	/^char	*ft_strjoin_l(char *path, char *cmd)$/;"	f
+ft_strlcat	libft/ft_strlcat.c	/^size_t	ft_strlcat(char *s1, const char *s2, size_t size)$/;"	f
+ft_strlcpy	libft/ft_strlcpy.c	/^size_t	ft_strlcpy(char *dst, const char *src, size_t size)$/;"	f
+ft_strlcpy	string/ft_strtrim.c	/^size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)$/;"	f
+ft_strlen	libft/ft_strlen.c	/^size_t	ft_strlen(char *s)$/;"	f
+ft_strlen	string/ft_strlen.c	/^int	ft_strlen(char *str)$/;"	f
+ft_strmapi	libft/ft_strmapi.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))$/;"	f
+ft_strncmp	libft/ft_strncmp.c	/^int	ft_strncmp(const char *s1, const char *s2, size_t length)$/;"	f
+ft_strndup	string/ft_strndup.c	/^char*	ft_strndup(char *str, int n)$/;"	f
+ft_strnstr	libft/ft_strnstr.c	/^char	*ft_strnstr(const char *s1, const char *s2, size_t len)$/;"	f
+ft_strrchr	libft/ft_strrchr.c	/^char	*ft_strrchr(const char *s, int c)$/;"	f
+ft_strset	libft/ft_strtrim.c	/^size_t	ft_strset(const char s, const char *set)$/;"	f
+ft_strtrim	libft/ft_strtrim.c	/^char	*ft_strtrim(char const *s, char const *set)$/;"	f
+ft_strtrim	string/ft_strtrim.c	/^char	*ft_strtrim(char const *s1, char const *set)$/;"	f
+ft_substr	libft/ft_substr.c	/^char	*ft_substr(char const *s, unsigned int start, size_t len)$/;"	f
+ft_tolower	libft/ft_tolower.c	/^int	ft_tolower(int c)$/;"	f
+ft_toupper	libft/ft_toupper.c	/^int	ft_toupper(int c)$/;"	f
+g	gc/gc.h	/^	void							*g;$/;"	m	struct:s_addr
+g_gc	gc/garbage_co.c	/^t_gc	*g_gc = NULL;$/;"	v
+gc	gc/garbage_co2.c	/^void	gc(char *instr)$/;"	f
+gc_free	gc/garbage_co3.c	/^void	gc_free(void *ptr)$/;"	f
+gc_free_calloc	gc/garbage_co3.c	/^void	gc_free_calloc(char **_calloc)$/;"	f
+gc_init	gc/garbage_co.c	/^void	gc_init(void)$/;"	f
+gc_malloc	gc/garbage_co.c	/^void	*gc_malloc(size_t size)$/;"	f
+gc_push	gc/garbage_co3.c	/^int	gc_push(void ***g)$/;"	f
+get_c_index	string/ft_split.c	/^static int	get_c_index(char *str, char c)$/;"	f	file:
+get_cmd_opt	exec/main.c	/^char	*get_cmd_opt(char *cmd, char **env)$/;"	f
+get_cmd_opt	pipe/get_cmd.c	/^char	*get_cmd_opt(char *cmd, char **env)$/;"	f
+get_env_ptr	main.c	/^t_cut_cmd*	get_env_ptr(char *var)$/;"	f
+get_line	main.c	/^char	*get_line(char *prompt_name)$/;"	f
+get_next_symbol	main.c	/^t_cut_cmd* get_next_symbol(t_cut_cmd* pos)$/;"	f
+get_next_symbol_av	main.c	/^int	get_next_symbol_av(char **argv)$/;"	f
+get_options	main.c	/^void	get_options(t_msh* msh, int argc, char **argv)$/;"	f
+get_path	exec/main.c	/^char	**get_path(char **env)$/;"	f
+get_path	main.c	/^char	*get_path(char *cmd)$/;"	f
+get_path	pipe/get_cmd.c	/^char	**get_path(char **env)$/;"	f
+head	minishell.h	/^	t_cut_cmd	*head;$/;"	m	struct:s_msh
+head_tail	main.c	/^t_cut_cmd	**head_tail(t_msh *msh, char *mode)$/;"	f
+head_wild_card	minishell.h	/^	struct s_cut_cmd	*head_wild_card;$/;"	m	struct:s_cut_cmd	typeref:struct:s_cut_cmd::s_cut_cmd
+history_fd	minishell.h	/^	int		history_fd;$/;"	m	struct:s_msh
+id	pipe/pipe.h	/^	int		id;$/;"	m	struct:s_pipe
+immune	gc/gc.h	/^	int								immune;$/;"	m	struct:s_addr
+init	main.c	/^void	init(int argc, char **argv, char **envp)$/;"	f
+init_env	main.c	/^void	init_env(t_msh* msh, char **envp)$/;"	f
+init_history	main.c	/^void	init_history(t_msh* msh)$/;"	f
+is_empty	pipe/utils.c	/^int	is_empty(char **av)$/;"	f
+is_last	minishell.h	/^	int					is_last;$/;"	m	struct:s_cut_cmd
+is_same	gc/is_same.c	/^int	is_same(char *s1, char *s2)$/;"	f
+is_same	string/is_same.c	/^int	is_same(char *s1, char *s2)$/;"	f
+is_symbol	main.c	/^int		is_symbol(char c)$/;"	f
+len_trim	string/ft_strtrim.c	/^int	len_trim(char *s1, const char *set)$/;"	f
+length_word	libft/ft_split.c	/^size_t	length_word(char const *s, char const c)$/;"	f
+line	minishell.h	/^	char	*line;$/;"	m	struct:s_msh
+list_len	main.c	/^int		list_len(t_cut_cmd* pos, enum __token__ end)$/;"	f
+list_to_split	main.c	/^char	**list_to_split(t_cut_cmd *target)$/;"	f
+main	exec/main.c	/^int main(int ac, char **av, char **env)$/;"	f
+main	main.c	/^int	main(int argc, char **argv, char **envp)$/;"	f
+main	pipe/main.c	/^int main(int ac, char **av, char **env)$/;"	f
+move_pos	main.c	/^void	move_pos(t_msh* msh, t_cut_cmd* pos)$/;"	f
+mute	gc/gc.h	/^	t_addr							*mute;$/;"	m	struct:s_garbage_collector
+n	gc/gc.h	/^	struct s_addr					*n;$/;"	m	struct:s_addr	typeref:struct:s_addr::s_addr
+n	minishell.h	/^	struct s_cut_cmd	*n;$/;"	m	struct:s_cut_cmd	typeref:struct:s_cut_cmd::s_cut_cmd
+next	libft/libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+next	pipe/pipe.h	/^	struct s_pipe *next;$/;"	m	struct:s_pipe	typeref:struct:s_pipe::s_pipe
+next_token_is_pipe	main.c	/^int	next_token_is_pipe(char **argv)$/;"	f
+normal	gc/gc.h	/^	t_addr							*normal;$/;"	m	struct:s_garbage_collector
+num_neg	libft/ft_itoa.c	/^char	*num_neg(int n)$/;"	f
+num_pstv	libft/ft_itoa.c	/^char	*num_pstv(int n)$/;"	f
+open_file	pipe/manage_fd.c	/^int    open_file(char *av, int mode)$/;"	f
+opt_single_command	main.c	/^void	opt_single_command(t_msh *msh, char *cmd)$/;"	f
+p	gc/gc.h	/^	struct s_addr					*p;$/;"	m	struct:s_addr	typeref:struct:s_addr::s_addr
+p	minishell.h	/^	struct s_cut_cmd	*p;$/;"	m	struct:s_cut_cmd	typeref:struct:s_cut_cmd::s_cut_cmd
+parse	main.c	/^int	parse()$/;"	f
+parsing_error	minishell.h	/^	char	*parsing_error;$/;"	m	struct:s_msh
+parsing_error_near	main.c	/^t_token parsing_error_near(char *str)$/;"	f
+pid	minishell.h	/^	int					pid;$/;"	m	struct:s_cut_cmd
+prog	gc/gc.h	/^	void							*prog;$/;"	m	struct:s_garbage_collector
+push_to_mute	gc/garbage_co2.c	/^int	push_to_mute(t_addr *_new)$/;"	f
+push_to_normal	gc/garbage_co3.c	/^int	push_to_normal(t_addr *_new)$/;"	f
+redir	pipe/exec_fd.c	/^void    redir(t_pipe *pipex, char **env, int out)$/;"	f
+remove_quotes	main.c	/^char	*remove_quotes(char* str)$/;"	f
+run_status	minishell.h	/^	int		run_status;$/;"	m	struct:s_msh
+s_addr	gc/gc.h	/^typedef struct s_addr$/;"	s
+s_cut_cmd	minishell.h	/^typedef struct s_cut_cmd$/;"	s
+s_garbage_collector	gc/gc.h	/^typedef struct s_garbage_collector$/;"	s
+s_list	libft/libft.h	/^typedef struct s_list$/;"	s
+s_mng	pipe/pipe.h	/^typedef struct s_mng$/;"	s
+s_msh	minishell.h	/^typedef struct s_msh$/;"	s
+s_pipe	pipe/pipe.h	/^typedef struct s_pipe$/;"	s
+save_cmd_opt	pipe/main.c	/^void	save_cmd_opt(t_pipe *pipex, char *str, int ac)$/;"	f
+set_tokens	main.c	/^void	set_tokens(t_msh *msh)$/;"	f
+single_command	minishell.h	/^	int		single_command;$/;"	m	struct:s_msh
+skip_sep	string/ft_split.c	/^char	*skip_sep(char *str, char c)$/;"	f
+symbol_len	main.c	/^int		symbol_len(t_cut_cmd* pos, enum __token__ find, t_cut_cmd** found)$/;"	f
+t_addr	gc/gc.h	/^}									t_addr;$/;"	t	typeref:struct:s_addr
+t_cut_cmd	minishell.h	/^}	t_cut_cmd;$/;"	t	typeref:struct:s_cut_cmd
+t_gc	gc/gc.h	/^}									t_gc;$/;"	t	typeref:struct:s_garbage_collector
+t_list	libft/libft.h	/^}	t_list;$/;"	t	typeref:struct:s_list
+t_mng	pipe/pipe.h	/^}t_mng;$/;"	t	typeref:struct:s_mng
+t_msh	minishell.h	/^}	t_msh;$/;"	t	typeref:struct:s_msh
+t_pipe	pipe/pipe.h	/^}               t_pipe;$/;"	t	typeref:struct:s_pipe
+t_token	minishell.h	/^}	t_token;$/;"	t	typeref:enum:__token__
+tab	pipe/pipe.h	/^	int	tab[2];$/;"	m	struct:s_mng
+tail	minishell.h	/^	t_cut_cmd	*tail;$/;"	m	struct:s_msh
+tail_wild_card	minishell.h	/^	struct s_cut_cmd	*tail_wild_card;$/;"	m	struct:s_cut_cmd	typeref:struct:s_cut_cmd::s_cut_cmd
+throw_error	main.c	/^void	throw_error(char *msg)$/;"	f
+to_gc	gc/garbage_co.c	/^void	*to_gc(void ***g)$/;"	f
+to_ignore	gc/gc.h	/^	void							*to_ignore;$/;"	m	struct:s_garbage_collector
+verif_dup2	pipe/utils.c	/^void	verif_dup2(int fd, int mode)$/;"	f
+wait_lst	pipe/exec_fd.c	/^void	wait_lst(t_pipe *pipex)$/;"	f
+waitforparse	minishell.h	/^	int		waitforparse;$/;"	m	struct:s_msh
+wild_card_type	minishell.h	/^	int					wild_card_type;$/;"	m	struct:s_cut_cmd
+wordcount	libft/ft_split.c	/^size_t	wordcount(char const *s, char const c)$/;"	f
